@@ -31,37 +31,43 @@ Classifiers, the system is able to deliver fast and accurate face detection, mak
 
 1. **Clone the repository**:
 
-    
-    git clone https://github.com/Thilak21/Face-Recognition.git
+      git clone https://github.com/Thilak21/Face-Recognition.git
     
 
 2. **Install required libraries**:
 
-    
-    pip install opencv-python
-    pip install opencv-contrib-python
-    pip install numpy
-    
-
-3. **Run the system**:
-
-    To detect faces in an image and in a video stream (webcam), use:
-
-    
-    python FaceDetection.py
+             pip install opencv-python
+   
+             pip install opencv-contrib-python
+   
+             pip install numpy
     
 
-## Learning Outcomes
+4. **Run the system**:
+
+     a) Create data sets:
+   
+             Create the datasets by your image or anyother image and store in the dataset folder
+
+         In powershell
+
+                      python create_data.py
+
+     b) To detect faces in an image and in a video stream (webcam), use:
+
+                      python faceRecognition.py
+    
+    
+
+# Learning Outcomes
 
 - Gained experience with OpenCV and computer vision algorithms.
 - Developed a strong understanding of image processing techniques.
 - Learned how to implement real-time object detection systems.
 - Gained proficiency in handling Python dependencies and optimizing code for performance.
 
-## Conclusion
+# Conclusion
 
 This Face Detection System is a demonstration of my skills in computer vision, Python programming, and real-time data processing. It showcases my ability to apply machine learning techniques to solve real-world problems and create efficient, scalable applications. I look forward to bringing these skills to future opportunities and contributing to innovative projects.
 
----
 
-Feel free to modify this as needed, and let me know if you want any additional changes!
