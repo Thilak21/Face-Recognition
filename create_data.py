@@ -3,9 +3,9 @@ import os #library os
 
 haar_file = 'haarcascade_frontalface_default.xml'
 datasets = 'dataset'  
-sub_data = 'Thilak'
+sub_data = 'Name_of_your_data'
 
-path = os.path.join(datasets, sub_data) #/dataset/sanjay
+path = os.path.join(datasets, sub_data) #/dataset/your saved data
 
 if not os.path.isdir(path): #if this folder is not present
     os.mkdir(path) #create that folder
@@ -18,7 +18,7 @@ webcam = cv2.VideoCapture(0) #camera initialization
 
 count = 1
 
-while count < 31:
+while count < 31:      #no of image
     print(count)
     (_, im) = webcam.read() #read frame from camera
     gray = cv2.cvtColor(im, cv2.COLOR_BGR2GRAY) #color frame to gray
